@@ -1,0 +1,350 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/soundapp/styles.css' %}">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container-fluid gx-0">
+
+            <!-- navbar start -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    
+                  <a class="navbar-brand logo text-uppercase" href="#">SOUND</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Headphones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn-navbar" href="#">Buy Now</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- navbar end -->
+
+            <div class="container">
+                <div class="content-home">
+                    <div class="row content-home2">
+                        <div class="col-lg-7 col-md-5">
+
+                            <div class="box-container">
+                                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="banner image">
+                            </div>
+
+                        </div>
+                        <div class="col-lg-5 col-md-7">
+                            <div class="box-container2">
+                                <h1 class="home-heading">Designed For Your <span class="home-span">Quality Music</span></h1>
+                                    <p class="pra-home">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, inventore.
+                                    </p>
+                                    <div class="btn-home">
+                                        <a href="#" class="home-links">Buy Now</a>
+                                        <a href="#" class="home-links btn-2">Explore</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- header part finished -->
+
+    <!-- About Us part -->
+
+    <div class="container">
+        <div class="about-us-container">
+            <div class="about-us">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content-about">
+                            <h3 class="heading-about">About Us</h3>
+                            <p class="para-about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aspernatur, debitis tempora necessitatibus libero nihil.</p>
+                            <p class="para-about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aspernatur, debitis tempora necessitatibus libero nihil.</p>
+                            <a href="#" class="link-about"> <span class="span-about"></span>Read More
+                            <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-about" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us part end -->
+
+    <section class="product-category">
+        <h2 class="heading-product">Product Category</h2>
+        <div class="container-fluid">
+            <!-- slider carousel bootstrap -->
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                  </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                  </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card card-product">
+                                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-card" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">EAR PHONES 83D</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, itaque.</p>
+                                      <a href="#" class="btn-product-ctg">Read More <span class="icon-arrow"><i class='fa-solid fa-arrow-right'></i></span></a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev btn-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+                    <span><i class='bx bx-left-arrow-alt btn-scroll button-left' ></i></span>
+                  
+                </button>
+                <button class="carousel-control-next btn-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  
+                    <span><i class='bx bx-right-arrow-alt btn-scroll button-right' ></i></span>
+
+                </button>
+              </div>
+
+        </div>
+    </section>
+
+    <!-- product part completed -->
+
+    <!-- Testimonials section -->
+
+    <section class="testimonial">
+        <h2 class="heading-testimonial">
+            What People Think <span class="styling">About Us</span>
+        </h2>
+        <p class="para-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit maxime corrupti harum recusandae neque? Officia culpa et fuga dicta nihil!</p>
+        <div class="container-fluid">
+
+            <!-- Slider Bootstrap-->
+
+            <div class="container-fluid">
+                
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            
+                            <div class="container container-clients">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image-clients" alt="">
+                                            </div>
+
+                                            <div class="icon-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                </ul>
+                                                <h3 class="client-name">Aiden Mathide</h3>
+                                                <p class="para-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat laudantium numquam quibusdam nam facilis?</p>
+                                                <h5 class="profession">Web Designer</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="https://images.unsplash.com/photo-1695927621677-ec96e048dce2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image-clients" alt="">
+                                            </div>
+
+                                            <div class="icon-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                </ul>
+                                                <h3 class="client-name">Aiden Mathide</h3>
+                                                <p class="para-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat laudantium numquam quibusdam nam facilis?</p>
+                                                <h5 class="profession">Web Designer</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container container-clients">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image-clients" alt="">
+                                            </div>
+
+                                            <div class="icon-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                </ul>
+                                                <h3 class="client-name">Aiden Mathide</h3>
+                                                <p class="para-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat laudantium numquam quibusdam nam facilis?</p>
+                                                <h5 class="profession">Web Designer</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image-clients" alt="">
+                                            </div>
+
+                                            <div class="icon-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                    <li class="stars"><i class='bx bxs-star'></i></li>
+                                                </ul>
+                                                <h3 class="client-name">Aiden Mathide</h3>
+                                                <p class="para-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat laudantium numquam quibusdam nam facilis?</p>
+                                                <h5 class="profession">Web Designer</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="para-footer"> &#169; By Ayush Dharmare 2024 </p>
+    </footer>
+
+</body>
+<!-- script file -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
